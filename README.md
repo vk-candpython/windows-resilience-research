@@ -79,7 +79,7 @@
 <summary><b>📁 Click to expand: Configuration Flags and Validation</b></summary>
 
 ```python
-#===================================#
+#===========================================#
 # [ OWNER ]
 #     CREATOR  : Vladislav Khudash
 #     AGE      : 17
@@ -89,7 +89,7 @@
 #     DATE     : 05.04.2026
 #     PROJECT  : WINDOWS-RESILIENCE-RESEARCH
 #     PLATFORM : WIN32
-#===================================#
+#===========================================#
 
 #SECTION CONFIG
 
