@@ -563,9 +563,13 @@ URANDOM = mem(bytearray(_urandom(_4mb)))
 
 ```python
 def is_bios():
-    fw = DWORD()
-    kernel32.GetFirmwareType(cref(fw))
-    return fw.value == 1
+    try:
+        fw = DWORD()
+        kernel32.GetFirmwareType(cref(fw))
+
+        return fw.value == 1
+    except AttributeError:
+        return True
 ```
 
 **Return values:**
